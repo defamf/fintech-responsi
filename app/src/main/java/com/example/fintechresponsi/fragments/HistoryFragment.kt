@@ -44,7 +44,7 @@ class HistoryFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        history.setOnClickListener{
+        recycle_view.setOnClickListener{
             Toast.makeText(context, "Selamat datang history", Toast.LENGTH_SHORT).show()
         }
     }

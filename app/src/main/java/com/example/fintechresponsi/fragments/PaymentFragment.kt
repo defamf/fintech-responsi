@@ -41,7 +41,7 @@ class PaymentFragment : Fragment() {
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        payment.setOnClickListener{
+        relativeL.setOnClickListener{
             Toast.makeText(context, "Selamat datang payment", Toast.LENGTH_SHORT).show()
         }
     }

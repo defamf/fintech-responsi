@@ -9,7 +9,13 @@
         android:roundIcon="@drawable/logoicon"
         android:supportsRtl="true"
         android:theme="@style/Theme.FintechResponsi">
-        <activity android:name=".DashboardActivity"></activity>
+        <activity android:name=".PaymentActivity"></activity>
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".CreditCardActivity" />
+        <activity android:name=".AccountBankActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".DashboardActivity" />
         <activity android:name=".ForgotPasswordActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />

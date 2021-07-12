@@ -23,10 +23,10 @@ class DashboardActivity : AppCompatActivity() {
 
         bottomNav.setOnNavigationItemReselectedListener {
             when(it.itemId){
-                R.id.ic_home -> replaceFragment(homeFragment)
-                R.id.ic_payment -> replaceFragment(paymentFragment)
-                R.id.ic_history -> replaceFragment(historyFragment)
-                R.id.ic_setting -> replaceFragment(settingFragment)
+                R.id.nav_home -> replaceFragment(homeFragment)
+                R.id.nav_payment -> replaceFragment(paymentFragment)
+                R.id.nav_history -> replaceFragment(historyFragment)
+                R.id.nav_setting -> replaceFragment(settingFragment)
             }
             true
         }
